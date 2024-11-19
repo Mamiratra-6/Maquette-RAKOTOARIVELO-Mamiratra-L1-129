@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Mon Blog de Voyage et Lifestyle</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h1><a href="index.html">Mon Blog</a></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section de contact -->
+  <section class="contact-section">
+    <div class="container">
+      <h2>Contactez-moi</h2>
+      <p>J'aimerais avoir de vos nouvelles ! Remplissez le formulaire ci-dessous et je reviendrai vers vous dès que possible.</p>
+
+      <!-- Formulaire de contact -->
+      <form id="contact-form" action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Votre nom</label>
+          <input type="text" id="name" name="name" required placeholder="Entrez votre nom">
+        </div>
+        <div class="form-group">
+          <label for="email">Votre e-mail</label>
+          <input type="email" id="email" name="email" required placeholder="Entrez votre e-mail">
+        </div>
+        <div class="form-group">
+          <label for="message">Votre message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Écrivez votre message ici..."></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Mon Blog. Tous droits réservés.</p>
+      <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
